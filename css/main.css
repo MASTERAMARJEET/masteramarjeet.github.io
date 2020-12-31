@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Lora:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Acme', sans-serif;
+  margin: 0;
+  background-color: #030820;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.stars {
+  position: fixed;
+  z-index: -10;
+  top: 8vh;
+  left: 4vw;
+  width: 105%;
+}
+
+.nav-container {
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  position: fixed;
+  z-index: 99;
+  background-color: rgba(3, 8, 32, 0.6);
+  font-family: 'Lora', serif;
+  font-weight: 500;
+}
+
+.nav-container header {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0em 5em;
+}
+
+.nav-container header img {
+  width: 1.5em;
+}
+
+.nav-container .logo {
+  color: #F3D277;
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container .logo div {
+  padding: 0.5em;
+}
+
+.nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-container ul a {
+  font-size: 1.25em;
+  color: white;
+  padding-left: 4em;
+}
+
+.hero {
+  margin: 6rem 5rem 0 5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2fr;
+      grid-template-columns: 1fr 2fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero h1 {
+  color: #F2AF3E;
+  font-size: 3.5rem;
+  letter-spacing: 0.5rem;
+  padding-bottom: 4rem;
+}
+
+.hero h3 {
+  color: #AFB1B7;
+  padding-top: 4rem;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.contacts {
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contacts img {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  padding-top: 2.5rem;
+  width: 75%;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 3rem;
+  right: calc(50vw - 0.5rem);
+  height: 1rem;
+}
+/*# sourceMappingURL=main.css.map */

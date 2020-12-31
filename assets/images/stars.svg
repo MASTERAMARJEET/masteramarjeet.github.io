@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="429.98mm" height="235.85mm" version="1.1" viewBox="0 0 429.98 235.85" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <filter id="filter1472" x="-.077657" y="-.08812" width="1.1553" height="1.1762" color-interpolation-filters="sRGB">
+   <feGaussianBlur stdDeviation="0.54767738"/>
+  </filter>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(169.12 8.2923)">
+  <g transform="matrix(.26458 0 0 .26458 -1015.9 392.21)">
+   <g fill="#b7fff2" stroke-width="0">
+    <ellipse transform="matrix(.43626 0 0 .36658 3407 -873.27)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+    <ellipse transform="matrix(-.85759 -.51433 .65555 -.75515 0 0)" cx="-2056.9" cy="2359.7" rx="4.4446" ry="4.1954"/>
+    <ellipse transform="matrix(-.85759 -.51433 .65555 -.75515 0 0)" cx="-2731.1" cy="3157.2" rx="3.2211" ry="3.0405" fill-opacity=".77328"/>
+    <ellipse transform="matrix(.27497 -.28152 .3424 .23105 3922.1 -1202.8)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+    <ellipse transform="matrix(.69874 -.71538 .82893 .55936 0 0)" cx="2796.4" cy="1509.3" rx="4.2399" ry="4.4022"/>
+    <ellipse transform="matrix(-.068347 .99766 -.99888 -.047276 0 0)" cx="-1381.2" cy="-3443.6" rx="2.8334" ry="3.4047" fill-opacity=".77328"/>
+    <ellipse transform="matrix(-.43141 -.053902 .065559 -.3625 4293.8 -763.16)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+    <ellipse transform="matrix(-.99228 -.12398 .17796 -.98404 0 0)" cx="-3221.3" cy="1281.4" rx="3.3948" ry="2.8453" fill-opacity=".77328"/>
+    <g>
+     <ellipse transform="matrix(.089271 -.35494 .4317 .075012 4320.5 -1166.8)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+     <ellipse transform="matrix(.24391 -.9698 .98524 .1712 0 0)" cx="2247" cy="4336.7" rx="3.9433" ry="4.6698"/>
+     <ellipse transform="matrix(.23492 .30555 -.37162 .1974 4744.7 -1274.1)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+     <ellipse transform="matrix(.067764 -.9977 .9989 .046872 0 0)" cx="1663.9" cy="3205.5" rx="3.9096" ry="4.698"/>
+    </g>
+    <ellipse transform="matrix(.067764 -.9977 .9989 .046872 0 0)" cx="1625.6" cy="3647.4" rx="2.8334" ry="3.4048" fill-opacity=".77328"/>
+    <g>
+     <ellipse transform="matrix(.43346 .040987 -.04985 .36423 3755.2 -776.84)" cx="543.05" cy="353.35" rx="8.463" ry="7.4582" filter="url(#filter1472)"/>
+     <ellipse transform="matrix(.99556 .094137 -.1356 .99076 0 0)" cx="4483.5" cy="-1236.1" rx="4.691" ry="3.918"/>
+     <ellipse transform="matrix(.067764 -.9977 .9989 .046872 0 0)" cx="885.9" cy="4246.8" rx="3.9096" ry="4.698"/>
+    </g>
+   </g>
+  </g>
+ </g>
+</svg>
