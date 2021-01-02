@@ -67,6 +67,12 @@ a {
   padding: 0.5em;
 }
 
+.nav-container .logo:hover {
+  color: white;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
 .nav-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,13 +82,42 @@ a {
 .nav-container ul a {
   font-size: 1.4em;
   color: white;
-  padding-left: 4em;
+  padding: 0 2em;
+  position: relative;
+}
+
+.nav-container ul a:hover {
+  color: #F3D277;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.nav-container ul a::after {
+  content: "";
+  position: absolute;
+  left: 27%;
+  bottom: 0;
+  width: 46%;
+  height: 2px;
+  background-color: #F3D277;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: -webkit-transform 0.25s ease-in;
+  transition: -webkit-transform 0.25s ease-in;
+  transition: transform 0.25s ease-in;
+  transition: transform 0.25s ease-in, -webkit-transform 0.25s ease-in;
+}
+
+.nav-container ul a:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
 }
 
 .contacts {
   position: fixed;
   bottom: 3rem;
   right: 5rem;
+  z-index: 99;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,8 +130,14 @@ a {
 .contacts img {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  padding-top: 2.5rem;
-  width: 75%;
+  padding: 2rem;
+  width: 90%;
+}
+
+.contacts img:hover {
+  width: 100%;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
 }
 
 .home {
@@ -136,6 +177,7 @@ a {
 
 .home #jupiter {
   position: absolute;
+  z-index: -50;
   top: 0;
   right: 0;
   height: calc(100vh - 7rem);

@@ -20,6 +20,8 @@ a {
   text-decoration: none;
 }
 
+$time: 0.25s;
+
 .nav-container {
 
 	backdrop-filter: blur(5px);
@@ -55,16 +57,41 @@ a {
 		div {
 			padding: 0.5em;
 		}
-  }
+	}
+	.logo:hover {
+		color: white;
+		transition: $time;
+	}
 
   ul {
 		display: flex;
 
+
 		a {
       font-size: 1.4em;
 			color: white;
-			padding-left: 4em;
-    }
+			padding: 0 2em;
+			position: relative;
+		}
+		a:hover {
+			color: #F3D277;
+			transition: $time;
+		}
+		a::after {
+			content: "";
+			position: absolute;
+			left: 27%;
+			bottom: 0;
+			width: 46%;
+			height: 2px;
+			background-color: #F3D277;
+
+			transform: scaleX(0);
+			transition: transform $time ease-in;
+		}
+		a:hover::after {
+			transform: scaleX(1);
+		}
   }
 }
 
@@ -72,14 +99,19 @@ a {
 	position: fixed;
 	bottom: 3rem;
 	right: 5rem;
+	z-index: 99;
 
 	display: flex;
 	flex-direction: column;
 
 	img {
 		align-self: flex-end;
-		padding-top: 2.5rem;
-		width: 75%;
+		padding: 2rem;
+		width: 90%;
+	}
+	img:hover {
+		width: 100%;
+		transition: $time;
 	}
 }
 
@@ -114,6 +146,7 @@ a {
 
 	#jupiter{
 		position: absolute;
+		z-index: -50;
 		top: 0;
 		right: 0;
 		height: $home-height;
