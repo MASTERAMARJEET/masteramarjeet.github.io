@@ -24,12 +24,17 @@ a {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   position: fixed;
+  top: 0px;
   z-index: 99;
   background-color: rgba(3, 8, 32, 0.6);
   font-family: 'Lora', serif;
   font-weight: 500;
   -webkit-box-shadow: 0 1px 5px 0 rgba(255, 255, 255, 0.411);
           box-shadow: 0 1px 5px 0 rgba(255, 255, 255, 0.411);
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 
 .nav-container header {
