@@ -8,7 +8,6 @@
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
-		<img src="assets/images/stars.svg" alt="" class="stars">
 
 		<!-- Nav Bar -->
 		<div class="nav-container">
@@ -30,25 +29,32 @@
 			</header>
 		</div>
 
+		<!-- Contacts icons -->
 		<div class="contacts">
 			<img src="assets/images/mail.svg" alt="mail">
 			<img src="assets/images/fb.svg" alt="facebook">
 		</div>
+
 		<!-- Hero -->
 		<section class="home">
-			<div class="hero">
-				<div>
-					<h1>Exploring the Cosmos and Beyond</h1>
-					<h3>with Amarjeet</h3>
-				</div>
+			<div class="text">
+				<h1>Exploring the Cosmos and Beyond</h1>
+				<h3>with Amarjeet</h3>
+			</div>
 
-				<img src="assets/images/jupiter_system.svg" alt="ring-planet">
+			<div id="jupiter">
+				<div data-depth="0.5"><img src="assets/images/jupiter_system.svg" alt="ring-planet"></div>
 			</div>
 
 			<img src="assets/images/arrow.svg" alt="arrow" class="arrow">
 		</section>
 
+		<!-- Background -->
+		<div id="starBg">
+			<div data-depth="0.1"><img src="assets/images/stars.svg" alt=""></div>
+		</div>
 
+		<!-- Projects -->
 		<section class="projects" id="projects">
 			<h2>Projects</h2>
 			<div class="card-box">
@@ -69,5 +75,7 @@
 			</div>
 		</section>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+		<script src="scripts/main.js"></script>
 	</body>
 </html>
