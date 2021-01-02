@@ -126,12 +126,21 @@ a {
 			// background-color: #F2AF3E;
 		}
 	}
-	.arrow {
-		bottom: 0rem;
-		left: calc(50vw - 6.5rem);
-		position: absolute;
-		width: 2.5rem;
-	}
+}
+
+.arrow {
+	bottom: 0rem;
+	left: calc(50vw - 6.5rem);
+	position: absolute;
+	width: 2.5rem;
+}
+.arrow-bounce {
+	animation: bounce ease 1.5s infinite;
+}
+
+@keyframes bounce {
+	0%, 100% {transform: translateY(0);}
+	50% {transform: translateY(-3rem); opacity: 50%;}
 }
 
 #starBg {

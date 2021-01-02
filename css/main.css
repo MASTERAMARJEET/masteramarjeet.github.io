@@ -147,11 +147,40 @@ a {
   width: 55vw;
 }
 
-.home .arrow {
+.arrow {
   bottom: 0rem;
   left: calc(50vw - 6.5rem);
   position: absolute;
   width: 2.5rem;
+}
+
+.arrow-bounce {
+  -webkit-animation: bounce ease 1.5s infinite;
+          animation: bounce ease 1.5s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    opacity: 50%;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(-3rem);
+            transform: translateY(-3rem);
+    opacity: 50%;
+  }
 }
 
 #starBg {
