@@ -7,4 +7,5 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   integrations: [svelte(), tailwind(), sitemap()],
+  site: 'https://masteramarjeet.github.io/',
 });
